@@ -1,4 +1,4 @@
-name: Automate Validate Prod
+name: Automate Validate Production
 on:
   pull_request:
     types: [opened]
