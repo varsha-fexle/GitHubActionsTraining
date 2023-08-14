@@ -1,4 +1,4 @@
-name: Automate Validate QA
+name: Validate Changes
 on:
   pull_request:
     types: [opened]
