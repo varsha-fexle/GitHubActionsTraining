@@ -50,7 +50,7 @@ jobs:
         run: cat package/package.xml
              destructiveChanges/destructiveChanges.xml
       
-      - name: Validate with PROD
+      - name: Validate with Production
         run: |
           sfdx force:source:deploy --checkonly \
               --manifest=package/package.xml \
