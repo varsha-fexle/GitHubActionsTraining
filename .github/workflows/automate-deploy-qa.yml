@@ -49,7 +49,7 @@ jobs:
        
       - name: Print package.xml
         run: cat package/package.xml
-             destructiveChanges/destructiveChanges.xml
+             cat destructiveChanges/destructiveChanges.xml
 
       - name: Deploy in QA
         run: |
