@@ -48,7 +48,9 @@ jobs:
        
       - name: Print package.xml
         run: cat package/package.xml
-             cat destructiveChanges/destructiveChanges.xml
+
+      - name: Print destructiveChanges.xml
+        run: cat destructiveChanges/destructiveChanges.xml
       
       - name: Validate with Production
         run: |
