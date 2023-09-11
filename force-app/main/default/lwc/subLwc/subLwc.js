@@ -41,6 +41,5 @@ export default class SubLwc extends LightningElement {
             this.counter *= message.constant;
         }
 
-        console.log('this.counter ',this.counter);
     }
 }
