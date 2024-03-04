@@ -43,6 +43,7 @@ public class AccountTriggerHelperClass {
     	
         for(Account acc: accList) {
             
+            System.debug('hello');
             //acc.DTM_Text__c = (acc.DTM__c).format('dd/MM/yyyy,h:mm a');
         }
         
